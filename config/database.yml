@@ -1,0 +1,9 @@
+development:
+  adapter: postgresql
+  database: glossary-development
+  host: localhost
+
+test:
+  adapter: postgresql
+  database: glossary-test
+  host: localhost
