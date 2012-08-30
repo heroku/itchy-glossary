@@ -1,0 +1,10 @@
+<p id="notice"><%= notice %></p>
+
+<h2><%= @term.name %></h2>
+<p><%= @term.definition %></p>
+
+<p>
+  <%= link_to 'Edit', edit_term_path(@term) %> |
+  <%= link_to 'Destroy', @term, method: :delete, data: { confirm: 'Are you sure?' } %> |
+  <%= link_to 'List all Terms', terms_path %>
+</p>

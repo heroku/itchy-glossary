@@ -8,6 +8,14 @@
 </head>
 <body>
 
+<div id="header">
+  <h1>Heroku Glossary</h1>
+  <ul id="nav">
+    <li><%= link_to "All Terms", terms_path %></li>
+    <li><%= link_to "New Term", new_term_path %></li>
+  </ul>
+</div>
+
 <%= yield %>
 
 </body>

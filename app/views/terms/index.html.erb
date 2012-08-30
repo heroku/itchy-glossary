@@ -1,0 +1,9 @@
+
+<ul class="terms">
+  <% @terms.each do |term| %>
+    <li>
+      <h3><%= link_to term.name, term_path(term) %></h3>
+      <p> <%= term.definition %></p>
+    </li>
+  <% end %>
+</ul>
