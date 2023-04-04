@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.8'
+gem 'rails', '6.1.7.3'
 gem 'pg'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.4.0'
 
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
-  gem 'uglifier', '>= 1.0.3'
+  gem 'sass-rails', '~> 5.0.8'
+  gem 'coffee-rails', '~> 4.2.2'
+  gem 'uglifier', '>= 2.7.2'
 end
 
 # group :development do
